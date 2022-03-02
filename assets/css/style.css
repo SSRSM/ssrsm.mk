@@ -897,26 +897,26 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Events
+# news
 --------------------------------------------------------------*/
-.events .card {
+.news .card {
   border: 0;
   padding: 0 30px;
   margin-bottom: 60px;
   position: relative;
 }
-.events .card-img {
+.news .card-img {
   width: calc(100% + 60px);
   margin-left: -30px;
   overflow: hidden;
   z-index: 9;
   border-radius: 0;
 }
-.events .card-img img {
+.news .card-img img {
   max-width: 100%;
   transition: all 0.3s ease-in-out;
 }
-.events .card-body {
+.news .card-body {
   z-index: 10;
   background: #fff;
   border-top: 4px solid #fff;
@@ -925,35 +925,35 @@ section {
   margin-top: -60px;
   transition: 0.3s;
 }
-.events .card-title {
+.news .card-title {
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
 }
-.events .card-title a {
+.news .card-title a {
   color: #37423b;
   transition: 0.3s;
 }
-.events .card-text {
+.news .card-text {
   color: #5e5e5e;
 }
-.events .read-more a {
+.news .read-more a {
   color: #777777;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
   transition: 0.3s;
 }
-.events .read-more a:hover {
+.news .read-more a:hover {
   color: #5fcf80;
 }
-.events .card:hover img {
+.news .card:hover img {
   transform: scale(1.1);
 }
-.events .card:hover .card-body {
+.news .card:hover .card-body {
   border-color: #5fcf80;
 }
-.events .card:hover .card-body .card-title a {
+.news .card:hover .card-body .card-title a {
   color: #5fcf80;
 }
 
@@ -1097,14 +1097,14 @@ section {
   background: #5fcf80;
   color: #fff;
 }
-.contact .php-email-form {
+.contact .email-form {
   width: 100%;
   background: #fff;
 }
-.contact .php-email-form .form-group {
+.contact .email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .error-message {
+.contact .email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1112,10 +1112,10 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.contact .email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.contact .email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1123,13 +1123,13 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.contact .email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.contact .email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1141,21 +1141,21 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .email-form input, .contact .email-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .email-form input:focus, .contact .email-form textarea:focus {
   border-color: #5fcf80;
 }
-.contact .php-email-form input {
+.contact .email-form input {
   height: 44px;
 }
-.contact .php-email-form textarea {
+.contact .email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .email-form button[type=submit] {
   background: #5fcf80;
   border: 0;
   padding: 10px 35px;
@@ -1163,7 +1163,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .email-form button[type=submit]:hover {
   background: #3ac162;
 }
 @-webkit-keyframes animate-loading {
