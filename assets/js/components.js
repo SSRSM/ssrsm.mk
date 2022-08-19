@@ -14,9 +14,16 @@
 		component.outerHTML = proppedHtml;
 	}));
 
-	const scriptTag = document.createElement('script');
+	const scripts = [
+		'assets/vendor/purecounter/purecounter.js',
+		'assets/js/afterComponents.js'
+	]
 
-	scriptTag.setAttribute('src', 'assets/vendor/purecounter/purecounter.js');
+	for (const scriptUrl of scripts) {
+		const scriptTag = document.createElement('script');
 
-	document.head.appendChild(scriptTag);
+		scriptTag.setAttribute('src', scriptUrl);
+
+		document.head.appendChild(scriptTag);
+	}
 })()
