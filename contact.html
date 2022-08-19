@@ -51,12 +51,19 @@
 
 			const db = getFirestore();
 
-			const docData = {
+			const data = {
 				name: document.querySelector('#email-form #name').value,
 				email: document.querySelector('#email-form #email').value,
 				subject: document.querySelector('#email-form #subject').value,
-				message: document.querySelector('#email-form #message').value,
-				date: Timestamp.fromDate(new Date()),
+				message: document.querySelector('#email-form #message').value
+			}
+
+			const docData = {
+				to: ['contact@ssrsm.mk'],
+				message: {
+					subject: data.subject,
+					html: `Mail from: <b>${data.name}</b><${data.email}><br />${data.message}`,
+				}
 			};
 
 			const docRef = await addDoc(collection(db, 'mails'), docData);
