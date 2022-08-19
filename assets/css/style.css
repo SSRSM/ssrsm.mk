@@ -553,21 +553,21 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us .content {
+.why-us-content {
   padding: 30px;
   background: #e1731d;
   border-radius: 4px;
   color: #fff;
 }
-.why-us .content h3 {
+.why-us-content h3 {
   font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
-.why-us .content p {
-  margin-bottom: 30px;
+.why-us-content p {
+  margin-bottom: 10px;
 }
-.why-us .content .more-btn {
+.why-us-content .more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
@@ -575,10 +575,10 @@ section {
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }
-.why-us .content .more-btn i {
+.why-us-content .more-btn i {
   font-size: 14px;
 }
-.why-us .content .more-btn:hover {
+.why-us-content .more-btn:hover {
   color: #e1731d;
   background: #fff;
 }
@@ -644,58 +644,58 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Courses
+# News
 --------------------------------------------------------------*/
-.courses .course-item {
+.news .news-item {
   border-radius: 5px;
   border: 1px solid #eef0ef;
 }
-.courses .course-content {
+.news .news-content {
   padding: 15px;
 }
-.courses .course-content h3 {
+.news .news-content h3 {
   font-weight: 700;
   font-size: 20px;
 }
-.courses .course-content h3 a {
+.news .news-content h3 a {
   color: #37423b;
   transition: 0.3s;
 }
-.courses .course-content h3 a:hover {
+.news .news-content h3 a:hover {
   color: #e1731d;
 }
-.courses .course-content p {
+.news .news-content p {
   font-size: 14px;
   color: #777777;
 }
-.courses .course-content h4 {
+.news .news-content h4 {
   font-size: 14px;
   background: #e1731d;
   padding: 7px 14px;
   color: #fff;
   margin: 0;
 }
-.courses .course-content .price {
+.news .news-content .price {
   margin: 0;
   font-weight: 700;
   font-size: 18px;
   color: #37423b;
 }
-.courses .trainer {
+.news .trainer {
   padding-top: 15px;
   border-top: 1px solid #eef0ef;
 }
-.courses .trainer .trainer-profile img {
+.news .trainer .trainer-profile img {
   max-width: 50px;
   border-radius: 50px;
 }
-.courses .trainer .trainer-profile span {
+.news .trainer .trainer-profile span {
   padding-left: 10px;
   font-weight: 600;
   font-size: 16px;
   color: #5a6c60;
 }
-.courses .trainer .trainer-rank {
+.news .trainer .trainer-rank {
   font-size: 18px;
   color: #657a6d;
 }
@@ -708,6 +708,8 @@ section {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #eef0ef;
+	border-radius: 1rem;
+	box-shadow: 2px 10px 12px 1px rgba(186,186,186,0.3);
 }
 .trainers .member img {
   margin: -1px -1px 30px -1px;
@@ -796,14 +798,14 @@ section {
 /*--------------------------------------------------------------
 # Cource Details
 --------------------------------------------------------------*/
-.course-details h3 {
+.news-details h3 {
   font-size: 24px;
   margin: 30px 0 15px 0;
   font-weight: 700;
   position: relative;
   padding-bottom: 10px;
 }
-.course-details h3:before {
+.news-details h3:before {
   content: "";
   position: absolute;
   display: block;
@@ -813,7 +815,7 @@ section {
   bottom: 0;
   left: 0;
 }
-.course-details h3:after {
+.news-details h3:after {
   content: "";
   position: absolute;
   display: block;
@@ -823,22 +825,22 @@ section {
   bottom: 0;
   left: 0;
 }
-.course-details .course-info {
+.news-details .news-info {
   background: #f6f7f6;
   padding: 10px 15px;
   margin-bottom: 15px;
 }
-.course-details .course-info h5 {
+.news-details .news-info h5 {
   font-weight: 400;
   font-size: 16px;
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-.course-details .course-info p {
+.news-details .news-info p {
   margin: 0;
   font-weight: 600;
 }
-.course-details .course-info a {
+.news-details .news-info a {
   color: #657a6d;
 }
 

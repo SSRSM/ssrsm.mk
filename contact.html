@@ -30,6 +30,39 @@
 	<!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
 
+	<script type="module">
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
+		import { getFirestore, doc, collection, addDoc, Timestamp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js';
+
+		const firebaseConfig = {
+			apiKey: "AIzaSyBU5p_RapAzbC5FoHJpsY2ahkY_nnH1fDw",
+			authDomain: "ssrsm-mk.firebaseapp.com",
+			projectId: "ssrsm-mk",
+			storageBucket: "ssrsm-mk.appspot.com",
+			messagingSenderId: "311086044552",
+			appId: "1:311086044552:web:51ec3745e3c93230fc163d",
+			measurementId: "G-8ZGWQPN658"
+		};
+
+		const app = initializeApp(firebaseConfig);
+
+		document.querySelector('#email-form').addEventListener('submit', async (e) => {
+			e.preventDefault();
+
+			const db = getFirestore();
+
+			const docData = {
+				name: document.querySelector('#email-form #name').value,
+				email: document.querySelector('#email-form #email').value,
+				subject: document.querySelector('#email-form #subject').value,
+				message: document.querySelector('#email-form #message').value,
+				date: Timestamp.fromDate(new Date()),
+			};
+
+			const docRef = await addDoc(collection(db, 'mails'), docData);
+		})
+	</script>
+
 	<!-- =======================================================
   * Template Name: Mentor - v4.7.0
   * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
@@ -62,7 +95,7 @@
 							<div class="email">
 								<i class="bi bi-envelope"></i>
 								<h4>Email:</h4>
-								<p>info@ssrsm.mk</p>
+								<p>unshm.mk@gmail.com</p>
 							</div>
 						</div>
 
@@ -70,7 +103,7 @@
 
 					<div class="col-lg-8 mt-5 mt-lg-0">
 
-						<form method="post" role="form" class="email-form">
+						<form method="post" role="form" class="email-form" id="email-form">
 							<div class="row">
 								<div class="col-md-6 form-group">
 									<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -83,14 +116,15 @@
 								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
 							</div>
 							<div class="form-group mt-3">
-								<textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+								<textarea class="form-control" name="message" id="message" rows="5" placeholder="Message"
+									required></textarea>
 							</div>
 							<div class="my-3">
 								<div class="loading">Loading</div>
 								<div class="error-message"></div>
 								<div class="sent-message">Your message has been sent. Thank you!</div>
 							</div>
-							<div class="text-center"><button type="submit">Send Message</button></div>
+							<div class="text-center"><button id="contact-submit-btn" type="submit">Send Message</button></div>
 						</form>
 
 					</div>
