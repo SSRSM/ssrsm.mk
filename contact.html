@@ -30,54 +30,14 @@
 	<!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
 
-	<script type="module">
-		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
-		import { getFirestore, doc, collection, addDoc, Timestamp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js';
-
-		const firebaseConfig = {
-			apiKey: "AIzaSyBU5p_RapAzbC5FoHJpsY2ahkY_nnH1fDw",
-			authDomain: "ssrsm-mk.firebaseapp.com",
-			projectId: "ssrsm-mk",
-			storageBucket: "ssrsm-mk.appspot.com",
-			messagingSenderId: "311086044552",
-			appId: "1:311086044552:web:51ec3745e3c93230fc163d",
-			measurementId: "G-8ZGWQPN658"
-		};
-
-		const app = initializeApp(firebaseConfig);
-
-		document.querySelector('#email-form').addEventListener('submit', async (e) => {
-			e.preventDefault();
-
-			const db = getFirestore();
-
-			const data = {
-				name: document.querySelector('#email-form #name').value,
-				email: document.querySelector('#email-form #email').value,
-				subject: document.querySelector('#email-form #subject').value,
-				message: document.querySelector('#email-form #message').value
-			}
-
-			const docData = {
-				to: ['contact@ssrsm.mk'],
-				message: {
-					subject: data.subject,
-					html: `Mail from: <b>${data.name}</b><${data.email}><br />${data.message}`,
-				}
-			};
-
-			const docRef = await addDoc(collection(db, 'mails'), docData);
-
-			location.reload();
-		})
-	</script>
-
 	<!-- =======================================================
   * Template Name: Mentor - v4.7.0
   * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+	<script src="https://unpkg.com/@botpoison/browser" async></script>
 </head>
 
 <body>
@@ -112,7 +72,25 @@
 
 					<div class="col-lg-8 mt-5 mt-lg-0">
 
-						<form method="post" role="form" class="email-form" id="email-form">
+						<form action="https://submit-form.com/kRyVFc99" role="form" class="email-form" id="email-form"
+							data-botpoison-public-key="pk_f2073efa-f662-4bb9-a2b2-7e68fb356ea3">
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<input type="text" id="name" name="name" class="form-control" placeholder="Name" required="" />
+								</div>
+								<div class="col-md-6 form-group mt-3 mt-md-0">
+									<input type="email" id="email" name="email" class="form-control" placeholder="Email" required="" />
+								</div>
+							</div>
+							<div class="form-group mt-3">
+								<textarea id="message" name="message" class="form-control" placeholder="Message" required=""></textarea>
+							</div>
+							<div class="text-center">
+								<button type="submit" id="contact-submit-btn">Send Message</button>
+							</div>
+						</form>
+
+						<!-- <form method="post">
 							<div class="row">
 								<div class="col-md-6 form-group">
 									<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -133,8 +111,7 @@
 								<div class="error-message"></div>
 								<div class="sent-message">Your message has been sent. Thank you!</div>
 							</div>
-							<div class="text-center"><button id="contact-submit-btn" type="submit">Send Message</button></div>
-						</form>
+						</form> -->
 
 					</div>
 
@@ -160,6 +137,20 @@
 
 	<!-- Template Main JS File -->
 	<script src="assets/js/main.js"></script>
+
+	<script>
+		var formElement = document.getElementById("form");
+		var buttonElement = document.getElementById("button");
+		formElement.addEventListener("botpoison-challenge-start", function () {
+			buttonElement.setAttribute("disabled", "disabled");
+		});
+		formElement.addEventListener("botpoison-challenge-success", function () {
+			buttonElement.removeAttribute("disabled");
+		});
+		formElement.addEventListener("botpoison-challenge-error", function () {
+			buttonElement.removeAttribute("disabled");
+		});
+	</script>
 
 </body>
 
