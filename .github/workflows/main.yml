@@ -4,9 +4,19 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
+
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
+    
+    - name: 🐍 Setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+        
+    - name: 🏃 Run python script
+      run: |
+        python build.py
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
@@ -14,3 +24,4 @@ jobs:
         server: ftp.ssrsm.mk
         username: auto-deploy@ssrsm.mk
         password: ${{ secrets.ftp_password }}
+        local-dir: ./build/
