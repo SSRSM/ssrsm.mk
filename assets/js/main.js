@@ -1,11 +1,4 @@
 /**
-* Template Name: Mentor - v4.7.0
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/**
  * Easy selector helper function
  */
 const select = (el, all = false) => {
@@ -107,5 +100,24 @@ const onscroll = (el, listener) => {
 			mirror: false
 		})
 	});
+
+	/**
+	 * Mobile nav toggle
+	 */
+	on('click', '.mobile-nav-toggle', function (e) {
+		select('#navbar').classList.toggle('navbar-mobile')
+		this.classList.toggle('bi-list')
+		this.classList.toggle('bi-x')
+	})
+
+	/**
+	 * Mobile nav dropdowns activate
+	 */
+	on('click', '.navbar .dropdown > a', function (e) {
+		if (select('#navbar').classList.contains('navbar-mobile')) {
+			e.preventDefault()
+			this.nextElementSibling.classList.toggle('dropdown-active')
+		}
+	}, true)
 
 })()
