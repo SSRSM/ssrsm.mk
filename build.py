@@ -1,35 +1,39 @@
 import os, glob, re, shutil
+from pickle import BUILD
+import pathlib
 
-BUILD_FOLDER = "./build"
-COMPONENTS_FOLDER = "./components"
+BUILD_FOLDER = "build"
+COMPONENTS_FOLDER = "components"
 
 def build_path(path):
 	return os.path.join(BUILD_FOLDER + ("" if BUILD_FOLDER[-1] == "/" else "/"), path)
 
-for filename in os.listdir(BUILD_FOLDER):
-	file_path = build_path(filename)
-	if os.path.isfile(file_path) or os.path.islink(file_path):
-		os.unlink(file_path)
-	elif os.path.isdir(file_path):
-		shutil.rmtree(file_path)
+if not os.path.exists(BUILD_FOLDER):
+	os.mkdir(BUILD_FOLDER)
+else:
+	for filename in os.listdir(BUILD_FOLDER):
+		file_path = build_path(filename)
+		if os.path.isfile(file_path) or os.path.islink(file_path):
+			os.unlink(file_path)
+		elif os.path.isdir(file_path):
+			shutil.rmtree(file_path)
 
 print("🗑️  Deleted old build structure in " + BUILD_FOLDER + ".")
 
 files_processed = 0
-for idx, file in enumerate(glob.glob('**/*', recursive = True)):
+for idx, file in enumerate(glob.glob('src/**/*', recursive = True)):
 	filename, file_extension = os.path.splitext(file)
 
-	if file_extension == ".py" or file.startswith((BUILD_FOLDER, COMPONENTS_FOLDER)):
-		continue
+	src_path = pathlib.Path(*pathlib.Path(file).parts[1:])
 
 	if os.path.isdir(file):
-		dir_name = build_path(file)
+		dir_name = build_path(src_path)
 		os.mkdir(dir_name)
 		print("📂 Made directory " + dir_name + ".")
 		continue
 
 	if file_extension != '.html':
-		shutil.copyfile(file, build_path(file))
+		shutil.copyfile(file, build_path(src_path))
 		continue
 
 	with open(file, "r") as f:
@@ -66,7 +70,7 @@ for idx, file in enumerate(glob.glob('**/*', recursive = True)):
 			else:
 				new_lines.append(line)
 
-		with open(build_path(file), "w") as buildf:
+		with open(build_path(src_path), "w") as buildf:
 			buildf.writelines(new_lines)
 
 	files_processed += 1
