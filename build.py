@@ -1,7 +1,7 @@
 import os, glob, re, shutil
 
-BUILD_FOLDER = "build"
-COMPONENTS_FOLDER = "components"
+BUILD_FOLDER = "./build"
+COMPONENTS_FOLDER = "./components"
 
 def build_path(path):
 	return os.path.join(BUILD_FOLDER + ("" if BUILD_FOLDER[-1] == "/" else "/"), path)
