@@ -120,4 +120,21 @@ const onscroll = (el, listener) => {
 		}
 	}, true)
 
+	try {
+		const currLocale = document.querySelector('html').getAttribute('lang');
+
+		const languageSelEL = document.querySelector('#language-select');
+		languageSelEL.value = currLocale;
+
+		languageSelEL.addEventListener('change', (e) => {
+			const newLocale = e.target.value;
+			const currPath = window.location.href;
+			const newPath = currPath.replace('/' + currLocale, '/' + newLocale);
+			console.log(newPath);
+			window.location.href = newPath;
+		});
+	} catch (error) {
+		console.error(error);
+	}
+
 })()

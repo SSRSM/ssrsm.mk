@@ -1,55 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="%locale%">
 
 <head>
 	={=components/head.component.html(title=SSRSM | Meet the team)=}=
 </head>
 
 <body>
-
 	={=components/header.component.html(about-active=active)=}=
 
 	<main id="main">
 		<!-- ======= Breadcrumbs ======= -->
 		<div class="breadcrumbs" data-aos="fade-in">
 			<div class="container">
-				<h2>Meet the Team</h2>
-
+				<h2>~{~meet-the-team~}~</h2>
 			</div>
 		</div><!-- End Breadcrumbs -->
 
 		<!-- ======= About Section ======= -->
 		<section id="about" class="about">
 			<div class="container" data-aos="fade-up">
-
 				<div class="row">
 					<div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-						<img src="assets/img/about.jpg" class="img-fluid" alt="">
+						<img src="/assets/img/about.jpg" class="img-fluid" alt="">
 					</div>
 					<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-						<h3>The Union</h3>
-						<p class="fst-italic">
-							According to our Statutes, the highest-decision making body of the Union is the General Assembly. The
-							General Assembly (GA) comprises all the Youth Ambassadors of the Union that represent the high-school
-							students at the city level. The President chairs and convenes the GA.
-						</p>
+						<h3>~{~about-title~}~</h3>
+
+						<p class="fst-italic">~{~about-0~}~</p>
 
 						<ul>
-							<li><i class="bi bi-check-circle"></i> On the central level, the second highest-decision making body that
-								is charged with the day-to-day running of the organization is the Executive Board (EB). The EB
-								implements the decisions made by the General Assembly. </li>
-							<li><i class="bi bi-check-circle"></i> The General Assembly and the Executive Board can decide to form
-								various other committees, working groups and taskforces to focus on a specific portfolio within the
-								Union’s work.
-							</li>
-							<li><i class="bi bi-check-circle"></i> On the local level, the Union consists of local branches that
-								include activists, members and youth ambassadors from the high-school population in that area. The local
-								branches are led by our highly motivated and dedicated youth ambassadors.</li>
+							<li><i class="bi bi-check-circle"></i> ~{~about-1~}~</li>
+							<li><i class="bi bi-check-circle"></i> ~{~about-2~}~</li>
+							<li><i class="bi bi-check-circle"></i> ~{~about-3~}~</li>
 						</ul>
-
 					</div>
 				</div>
-
 			</div>
 		</section><!-- End About Section -->
 
@@ -59,10 +44,9 @@
 		<!-- ======= Testimonials Section ======= -->
 		<section id="testimonials" class="testimonials">
 			<div class="container" data-aos="fade-up">
-
 				<div class="section-title">
 					<h2>OUR EB</h2>
-					<p>MEET THE MEMBERS OF THE EXECUTIVE BOARD</p>
+					<p>~{~board-title~}~</p>
 				</div>
 
 				<section id="trainers" class="trainers">
@@ -71,21 +55,11 @@
 						<div class="row" data-aos="zoom-in" data-aos-delay="100">
 							<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 								<div class="member">
-									<img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+									<img src="/assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
 									<div class="member-content">
-										<h4>Luka Pavikjevikj</h4>
-										<span>President</span>
-										<p>
-											I am a fourth-year student and a Boris Trajkovski Scholar at NOVA International Schools. Ever
-											since my primary school days, I was frustrated by seeing the voice of the students twisted,
-											ignored, or even shut down. There were no structures that adequately represented our voice, while
-											the student councils served as a rubber stamp. This injustice motivated me to become a researcher
-											and an activist. Apart from being a published author, co-editor-in-chief of my school’s newspaper,
-											NOVA Times, and secretary of the student council, my career in the Union started in the spring of
-											2020 as a member of the Executive Board and, then, Secretary-General. Elected in June 2021, I will
-											use these two years as your President on creating a system that will properly represent us for
-											years to come.
-										</p>
+										<h4>~{~board-luka-0~}~</h4>
+										<span>~{~board-luka-1~}~</span>
+										<p>~{~board-luka-2~}~</p>
 										<div class="social">
 											<a href=""><i class="bi bi-twitter"></i></a>
 											<a href=""><i class="bi bi-facebook"></i></a>
@@ -98,7 +72,7 @@
 
 							<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 								<div class="member">
-									<img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+									<img src="/assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
 									<div class="member-content">
 										<h4>Jana Popova</h4>
 										<span>First Vice President</span>
@@ -122,7 +96,7 @@
 
 							<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 								<div class="member">
-									<img src="assets/img/trainers/trainer-4.jpg" class="img-fluid" alt="">
+									<img src="/assets/img/trainers/trainer-4.jpg" class="img-fluid" alt="">
 									<div class="member-content">
 										<h4>Vlatko Stojkoski</h4>
 										<span>Secretary-General</span>
@@ -147,12 +121,12 @@
 
 							<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 								<div class="member">
-									<img src="assets/img/trainers/trainer-6.jpg" class="img-fluid" alt="">
+									<img src="/assets/img/trainers/trainer-6.jpg" class="img-fluid" alt="">
 									<div class="member-content">
 										<h4>Filip Najdovski</h4>
 										<span>Second Vice President</span>
 										<p>
-											My name is Filip Najdovski; I am a first-year student in SABA-Skopje. I have been actively
+											My name is Filip Najdovski; I am a second-year student in SABA-Skopje. I have been actively
 											supporting the rights of all high-school students and fighting against different injustices in the
 											education system in our country. I am also a member of a few other Non-Governmental
 											Organizations that work in the fields of education, digitalisation and innovation. I became a
@@ -170,7 +144,7 @@
 
 							<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 								<div class="member">
-									<img src="assets/img/trainers/trainer-5.jpg" class="img-fluid" alt="">
+									<img src="/assets/img/trainers/trainer-5.jpg" class="img-fluid" alt="">
 									<div class="member-content">
 										<h4>Eva Karamanovska</h4>
 										<span>Head of Communications</span>
@@ -197,7 +171,7 @@
 
 							<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 								<div class="member">
-									<img src="assets/img/trainers/trainer-7.jpg" class="img-fluid" alt="">
+									<img src="/assets/img/trainers/trainer-7.jpg" class="img-fluid" alt="">
 									<div class="member-content">
 										<h4>Adora Limani</h4>
 										<span>Head of Research and Strategy</span>
@@ -222,7 +196,7 @@
 
 							<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 								<div class="member">
-									<img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+									<img src="/assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
 									<div class="member-content">
 										<h4>Emira Husovich</h4>
 										<span>Advisor for International Curricula</span>
@@ -251,7 +225,7 @@
 
 							<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 								<div class="member">
-									<img src="assets/img/trainers/trainer-8.jpg" class="img-fluid" alt="">
+									<img src="/assets/img/trainers/trainer-8.jpg" class="img-fluid" alt="">
 									<div class="member-content">
 										<h4>Berin Muhamed</h4>
 										<span>Head of Youth Ambassador Relations</span>
