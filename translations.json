@@ -4,6 +4,43 @@
 		"al",
 		"en"
 	],
+
+	"navbar-0": [
+		"Сојузот",
+		"Unioni",
+		"The Union"
+	],
+
+	"navbar-1": [
+		"Почетна",
+		"Faqja kryesore",
+		"Home"
+	],
+
+	"navbar-2": [
+		"За Нас",
+		"Rreth nesh",
+		"About Us"
+	],
+
+	"navbar-3": [
+		"Новости",
+		"Lajme",
+		"News"
+	],
+
+	"navbar-4": [
+		"Галерија",
+		"Galeria",
+		"Gallery"
+	],
+
+	"navbar-5": [
+		"Контакт",
+		"Kontakti",
+		"Contact"
+	],
+	
 	"hero-1": [
 		"We Do Need AN Education!",
 		"We Do Need AN Education!",
@@ -19,6 +56,7 @@
 		"Bëhu aktivist",
 		"Become an activist"
 	],
+
 	"who-are-we": [
 		"Кои сме ние?",
 		"Kush jemi ne?",
@@ -29,11 +67,13 @@
 		"Unioni i Nxënësve të Shkollave të Mesme të Maqedonisë së Veriut (Сојуз на средношколци – ССРСМ / The Union of High-School Students of North Macedonia) është e vetmja strukturë kombëtare përfaqësuese e nxënësve të shkollave të mesme në vend. Unioni është një strukturë unike e udhëhequr nga nxënësit për nxënësit, dhe prandaj posedon një pasuri informacionesh ekskluzive për organizatën. Si i vetmi përfaqësues i studentëve të shkollave të mesme në Maqedoni, ai luan një rol kyç në marrjen e vendimeve në çështjet e arsimit dhe të rinisë, duke përfaqësuar zërin e nxënësve të shkollave të mesme përpara vendimmarrësve, institucioneve politike dhe palëve të tjera të interesuara në fushën e arsimit. Mbrojtja e të drejtave të nxënësve duhet të garantohet në Maqedoninë e Veriut. Organizata merr iniciativën e bashkëpunimit dhe dialogut mes strukturave përfaqësuese të studentëve, mësuesve, drejtorëve të shkollave dhe institucioneve të tjera me pushtet politik. Në këtë proces, ne luajmë një rol kyç në zgjerimin e perceptimit të ngushtë të përfaqësuar për arsimin. Në sytë tanë, çështja e arsimit asnjëherë nuk mund të trajtohet pa trajtimin e shoqërisë në tërësi - arsimi nuk është një fragment i pandryshueshëm i shoqërisë, por një proces që vazhdimisht formon shoqërinë.",
 		"The Union of High-School Students of North Macedonia (Сојуз на средношколци на – ССРСМ / Unioni i Nxënësve të Shkollave të Mesme – UNSHM) is the only nationwide representative body of high-school students in the country. The Union is a unique structure run by high-schoolers for high-schoolers, and therefore possesses a wealth of knowledge and information exclusive to the organisation. As the sole representative of Macedonian high- school students, it is a key player in the policy-making on education and youth matters, representing the voice of secondary school students before decision-making bodies, political institutions and other stakeholders in the field of education. The protection of students’ rights must be ensured in North Macedonia. The organisation takes initiative of cooperation and dialogue between representative bodies for students, teachers, school principals and other institutions possessing political power. In this process, we play a key role in widening the well-represented narrow perception of education. In our eyes, the matter of education can never be tackled without, in parallel, tackling society as a whole - education is not a static fragment of society, but a process constantly shaping society."
 	],
+
 	"history-title": [
 		"Нашата историја",
 		"Historia jonë",
 		"Our history"
 	],
+
 	"history-text-1": [
 		"Основан во ноември 2017 година во Тетово, Сојузот започнува како непрофитно, независно, непартиско студентско движење во полошкиот регион. Следните три години биле значителни за негово ширење низ целата земја, како и застапување на идејата за мешано учење и прилагодување на државната матура на пандемијата. Сојузот ги обединува средношколците од сите етникуми и вери од Северна Македонија во сите региони на земјата.",
 		"E themeluar në Nëntor të vitit 2017 në Tetovë, ne filluam si një lëvizje studentore jofitimprurëse, e pavarur dhe pa parti politike, në rajonin e Pollogut. Tre vitet e ardhshme shënuan punën e shpërndarjes së Bashkimit në tërë vendin, po ashtu mbështetjen ndaj mësimit të kombinuar dhe adaptimin e maturës shtetërore në kohë të pandemisë. Unioni bashkon studentët e shkollave të mesme të të gjitha etniveve dhe besimeve të Maqedonisë së Veriut në të gjitha rajonet e vendit.",
@@ -44,6 +84,7 @@
 		"Unioni zgjodhi udhëheqjen e saj të re më 29 maj të vitit 2021 për një mandat prej dy vitesh. Administrata aktuale bindi autoritetet për rihapjen e shkollave për të dy semestrat e vitit shkollor. Gjithashtu ka përgatitur dy projektligje që do të bëjnë transportin publik falas për të gjithë studentët e shkollave të mesme dhe që do të rregullojnë këshillat e studentëve për herë të parë në historinë e vendit. Që në prill të vitit 2022, Unioni është kandidat për anëtarësim në OBESSU.",
 		"The Union elected its new leadership on 29 May 2021 for a two-year term. The current administration persuaded the authorities to re-open the schools for both semesters of the school year. It has also prepared two draft Bills that will make public transport free for all high-school students and regulate student councils for the first time in the country’s history. Since April 2022, the Union is a candidate for OBESSU membership."
 	],
+
 	"meet-the-team": [
 		"Запознајте се со Тимот",
 		"Takohen me Ekipin",
@@ -53,7 +94,8 @@
 		"Сојузот",
 		"Unioni",
 		"The Union"
-	],	
+	],
+
 	"about-0": [
 		"Според нашиот Статут, највисоко одлучувачко тело на Сојузот е Генералното собрание. Генералното собрание го сочинуваат сите младински амбасадори на Унијата кои ги претставуваат средношколците на градско ниво. Претседателот претседава и го свикува Собранието.",
 		"Sipas Statusit tonë, organi më i lartë vendimmarrës i Unionit është Asambleja e Përgjithshme. Asambleja e Përgjithshme (AP) përbëhet nga të gjithë Ambasadorët Rinj të Unionit që përfaqësojnë nxënësit e shkollave të mesme në nivel të qytetit. Presidenti kryeson dhe mbledh AP.",
@@ -74,11 +116,13 @@
 		"Në nivel lokal, Unioni përbëhet nga degët lokale që përfshijnë aktivistë, anëtarë dhe ambasadorë të rinjë nga shkollat e mesme  në atë zonë. Degët lokale drejtohen nga ambasadorët tonë të rinj shumë të motivuar dhe të përkushtuar.",
 		"On the local level, the Union consists of local branches that include activists, members and youth ambassadors from the high-school population in that area. The local branches are led by our highly motivated and dedicated youth ambassadors."
 	],
+
 	"board-title": [
 		"ЗАПОЗНАЈТЕ ГИ ЧЛЕНОВИТЕ НА ИЗВРШНИОТ ОДБОР",
 		"NJOFTOHUNI ME ANËTARËT E BORDIT EKZEKUTIV",
 		"MEET THE MEMBERS OF THE EXECUTIVE BOARD"
 	],
+
 	"board-luka-0": [
 		"Лука Павиќевик",
 		"Luka Paviqeviq",
@@ -93,5 +137,117 @@
 		"Јас сум матурант во Гимназија НОВА како стипендист на Меѓународната фондација „Борис Трајковски“. Уште кога бев во основно училиште, се сеќавам дека гласот на учениците беше извртуван, игнориран, па дури и исклучуван. Немаше структури кои соодветно го претставуваа нашиот глас, додека ученичките совети постоеја само на хартија. Оваа неправда ме мотивираше да станам истражувач и активист. Освен што сум публикуван автор, главен уредник на мојот училишен весник, NOVA Times и секретар на ученичкиот совет, мојата кариера во Сојузот започна пролетта 2020 година како член на Извршниот одбор и потоа, Генерален секретар. Мандатот го добив во јуни 2021 година, а овие две години како ваш претседател ќе ги искористам за создавање систем кој соодветно ќе нè претставува во годините коишто ни претстојат.",
 		"Jam nxenes i vitit të katërt dhe nje Boris Trajkovski skolar në NOVA International Schools. Që në shkollën fillore, isha i frustruar duke parë zërin e nxënësve të përdredhur, të injoruar apo edhe të mbyllur( te pushuar). Nuk kishte struktura që të përfaqësonin zërin tonë në mënyrë adekuate, perderisa  këshillat studentorë po shërbenin si vulë gome. Kjo padrejtësi më motivoi të bëhem studiues dhe aktivist. Përveçse qe  jam autor i botuar, kryeredaktor i gazetës së shkollës sime, NOVA Times dhe sekretar i këshillit studentor, karriera ime në Union nisi/ filloi në pranverën e vitit 2020 si anëtar i Bordit Ekzekutiv dhe më pas , Sekretar i përgjithshëm. I zgjedhur në qershor 2021, u do t'i përdor këto dy vite si Kryetari  juaj për krijimin e një sistemi që do të na përfaqësojë siç duhet për vitet në vijim.",
 		"I am a fourth-year student and a Boris Trajkovski Scholar at NOVA International Schools. Ever since my primary school days, I was frustrated by seeing the voice of the students twisted, ignored, or even shut down. There were no structures that adequately represented our voice, while the student councils served as a rubber stamp. This injustice motivated me to become a researcher and an activist. Apart from being a published author, co-editor-in-chief of my school’s newspaper, NOVA Times, and secretary of the student council, my career in the Union started in the spring of 2020 as a member of the Executive Board and, then, Secretary-General. Elected in June 2021, I will use these two years as your President on creating a system that will properly represent us for years to come."
+	],
+
+	"board-jana-0": [
+		"Јана Попова",
+		"Jana Popova",
+		"Jana Popova"
+	],
+	"board-jana-1": [
+		"Прв потпретседател",
+		"Nenkryetarja pare",
+		"First Vice President"
+	],
+	"board-jana-2": [
+		"Јас сум Јана Попова, ученик сум во Гимназијата Никола Карев во Скопје. Јас сум прв потпретседател и меѓународен офицер на Сојузот. Ќе го дадам најдоброто од себе за да придонесам за имплементирање на нашите цели во овие две години што не очекуваат. Би рекла дека имам значително влијание врз невладини организации и проекти. Како средношколци, клучно е да се слушне нашиот глас. Затоа, приоритет ми е да ги претставувам моите врсници и да се борам за подобар образовен систем.",
+		"Une quhem Jana Popova, jam nxenese ne gjimnazin Nikola Karev ne Shkup. Jam nenkryetarja e pare dhe Oficere Zyrtare e Unionit. Do ta jap me te miren nga vetja per te  kontribuar  kundrejt realizimit  te synimeve  tona pergjate dy viteve qe na mirepresin. Do te thoja se kam ndikim te konsiderueshem ne SCO-së dhe projekte. Si nxenes te shkollave te mesme, eshte thelbesore qe zeri yne te degjohet. Prandaj,priorieti im eshte te perfaqesij bashkemoshatare e mi dhe te luftoj per nje sisem edukativ/arsimor me te mire.",
+		"My name is Jana Popova, I am a student in the Gymnasium Nikola Karev in Skopje. I am the First Vice President and International officer of the Union. I will give the best of myself to contribute towards implementing our goals in these two years that await us. I would say that I have considerable influence on CSOs and projects. As high-school students, it is crucial to have our voices heard. Therefore, my priority is to represent my peers and fight for a better education system."
+	],
+
+	"board-vlatko-0": [
+		"Влатко Стојкоски",
+		"Vlatko Stojkoski",
+		"Vlatko Stojkoski"
+	],
+	"board-vlatko-1": [
+		"Генерален секретар",
+		"Sekretar i përgjithshëm",
+		"Secretary-General"
+	],
+	"board-vlatko-2": [
+		"Јас сум Влатко Стојкоски и учам во втора година во ПСУ Јахја Кемал во Скопје. Со мојата амбициозност и креативност успевам да најдам инспирација да ги постигнам високите цели кои си ги поставувам. Пред да станам член на Сојузот, бев вклучен во неколку проекти кои влијаеја на образованието и животот на средношколците. Тие ме мотивираа да влезам во Сојузот. Сакам да зборувам и проектирам на различни теми, и добро ми оди со лидерски позиции, особено кога треба да ја завршам работата. Сите меки и тешки вештини во комбинација се она што ме прави одлична личност за работа. Јас сум многу дружељубива личност и секогаш сум подготвен да помогнам.",
+		"Unë jam Vlatko Stojkoski dhe jam nxenes  i vitit te dytë në Kolegjin Yahya  Kemal në Shkup. Me ambiciozitetin dhe kreativitetin tim, arrita të gjej frymëzim për të arritur qëllimet më të larta që i vendosa vetes. Para se të bëhesha anëtar i  Unionit, u angazhova në disa projekte të cilat ndikuan në arsim dhe në jetën e nxënësve të shkollave të mesme. Ata më motivuan të hyja/anetaresohesh në Union. Më pëlqen të flas dhe planifikoj për tema të ndryshme, dhe jam shumë i mirë ne pozita drejtuese, veçanërisht kur bëhet fjalë për të bërë punën në të vërtetë. Të gjitha aftësitë e buta dhe të vështira të kombinuara janë ato që më bëjnë një person të mrekullueshem  për të punuar. Jam një person shumë i shoqërueshëm dhe jam gjithmonë i gatshëm të ndihmoj.",
+		"I am Vlatko Stojkoski and I am a second year student in Yahya Kemal College in Skopje. With my ambitiousness and creativity, I managed to find inspiration to achieve the higher goals that I set for myself. Before becoming a member of the Union, I engaged in several projects which impacted education and the life of high-school students. They motivated me to join the Union. I like to speak and plan on different topics, and am very great with leadership positions especially when it gets to actually doing the work. All of soft and hard skills combined are what makes me a great great person to work with. I am a very sociable person and I am always ready to help."
+	],
+
+	"board-filip-0": [
+		"Филип Најдовски",
+		"Filip Najdovski",
+		"Filip Najdovski"
+	],
+	"board-filip-1": [
+		"Втор Потпретседател",
+		"Nënkryetari i dytë",
+		"Second Vice President"
+	],
+	"board-filip-2": [
+		"My name is Filip Najdovski; I am a second-year student in SABA-Skopje. I have been actively supporting the rights of all high-school students and fighting against different injustices in the education system in our country. I am also a member of a few other Non-Governmental Organizations that work in the fields of education, digitalisation and innovation. I became a member of the Executive Board in 2021. I serve as the Head of PR.",
+		"Unë quhem Filip Najdovski; Jam nxenes në vitin e dytë në SABA-Shkup. Kam mbështetur aktivisht të drejtat e të gjithë nxënësve të shkollave të mesme si dhe kam luftuar kundër padrejtësive të ndryshme në sistemin arsimor në vendin tonë. Jam gjithashtu anëtar i disa organizatave të tjera joqeveritare që punojnë në fushat e arsimit, dixhitalizimit dhe inovacionit. U bëra anëtar i Bordit Ekzekutiv në vitin 2021, shërbej si Shef i  PR.",
+		"My name is Filip Najdovski; I am a second-year student in SABA-Skopje. I have been actively supporting the rights of all high-school students and fighting against different injustices in the education system in our country. I am also a member of a few other Non-Governmental Organizations that work in the fields of education, digitalisation and innovation. I became a member of the Executive Board in 2021. I serve as the Head of PR."
+	],
+
+	"board-eva-0": [
+		"Ева Карамановска",
+		"Eva Karamanovska",
+		"Eva Karamanovska"
+	],
+	"board-eva-1": [
+		"Одговорна за Комуникации",
+		"Shefe e Komunikimit",
+		"Head of Communications"
+	],
+	"board-eva-2": [
+		"Здраво, јас сум Ева Карамановска, ученичка во четврта година во Гимназијата \"Никола Карев\" во Скопје. Јас сум млада, многу мотивирана личност со големи амбиции и силна желба за работа. Бев член на ученичкиот совет и во основното и во средното училиште, така што да бидам дел од Сојузот претставува огромна можност и за личен развој и за напредок во образованието. Себеси се нарекувам уметник кој секогаш ги користи своите знаења и талент за дизајн за развој на проекти во заедницата. Затоа, мојата позиција во Сојузот е одговорна за комуникациите. Јас сум член на тимот за графички дизајн и сум задолжена за одржување на нашите профили на социјалните мрежи. Се надевам и верувам дека со многу работа и преданост, ќе допринесам за подобрување на образованието во нашата држава во текот на овие две години.",
+		"Përshëndetje, unë jam Eva Karamanovska, nxenese e vitit të katërt në gjimnazin Nikolla Karev në Shkup. Jam një individ i ri, shumë i motivuar, me ambicie dhe dëshirë të madhe për punë. Kam qenë anëtare e  këshillit te nxenesve si në shkollën fillore ashtu edhe në atë të mesme, kështu që mundësia për të qenë pjesë e Unionit është një mundësi e madhe si për zhvillim personal ashtu edhe për përparim në arsim. Unë do ta quaja veten një artiste që përdor gjithmonë njohuritë dhe talentin e saj për dizajn për të zhvilluar projekte komunitare. Pra, pozicioni im në Union është Shefe e  Komunikimit. Unë jam anëtare e  ekipit të dizajnit grafik. Jam gjithashtu përgjegjëse për profilet tona në rrjetet sociale. Shpresoj dhe besoj se me shumë punë dhe përkushtim do të kontribuoj në përmirësimin e arsimit në vendin tonë gjatë këtyre dy viteve.",
+		"Hi, I am Eva Karamanovska, a fourth-year student in the Gymnasium Nikola Karev in Skopje. I am a young, very motivated individual with big ambitions and a great desire for work. I have been a member of student councils in both my primary and my high school, so the opportunity to be a part of the Union is an enormous opportunity both for personal development and for progress in education. I would call myself an artist that always uses her knowledge and talent for design to develop community projects. Ergo, my position in the Union is Head of Communications. I am a member of the graphic design team. I am also in charge of our social media profiles. I hope and believe that with lots of work and dedication, I will contribute to improving education in our country over these two years."
+	],
+
+	"board-adora-0": [
+		"Адора Лимани",
+		"Adora Limani",
+		"Adora Limani"
+	],
+	"board-adora-1": [
+		"Одговорна за Истражување и Стратегија",
+		"Shefe e Kërkimit dhe Strategjisë",
+		"Head of Research and Strategy"
+	],
+	"board-adora-2": [
+		"Јас сум Адора Лимани, ученичка во ПСУ NOVA International Schools. Сум студентка во четврта година. Член сум на Извршниот одбор од 2020 година. Особено ме интересираат активизмот во образованието и правата на жените, затоа го основав првиот феминистички клуб во моето училиште. Моето активно учество во дебатниот клуб и во школското списание, како и мојата страст кон пишувањето, ме опремија со вештини за истражување. Затоа, мојата моментална улога во Сојузот е одговорна за истражување и стратегијата. Мојата намера во наредните две години е да ги искористам своите вештини и знаења за да помогнам на учениците во средните училишта низ целата земја да се борат за подобро образование.",
+		"Unë jam Adora Limani dhe ndjek shkollen  NOVA International Schools. Unë jam nxenese e vitit te katërt. Jam anëtare e Bordit Ekzekutiv që nga viti 2020.  Vecanerisht me interesojne  aktivizmi arsimor dhe të drejtat e grave, kështu që themelova klubin e parë feminist në shkollën time. Pjesëmarrja ime aktive në klubin dhe gazetën e debatit të shkollës sime, si dhe pasioni për të shkruar, më pajisën me aftësi kërkimore. Kjo është arsyeja pse  roli im aktual në Union është Drejtuese e  Kërkimit dhe Strategjisë. Plani im për dy vitet e ardhshme është të përdor aftësitë dhe njohuritë e mia për të ndihmuar nxënësit e shkollave të mesme në të gjithë vendin të luftojnë për një arsim më të mirë.",
+		"I am Adora Limani, and I attend NOVA International Schools. I am a fourth-year student. I have been a member of the Executive Board since 2020. Education activism and women's rights interest me particularly, so I founded the first feminist club in my school. My active participation in my school's debate club and newspaper, as well as my passion for writing, equipped me with research skills. That is why my current role in the Union is Head of Research and Strategy. My plan for the next two years is to use my skills and knowledge to help high-school students across the entire country fight for a better education."
+	],
+
+	"board-emira-0": [
+		"Емира Хусовиќ",
+		"Emira Husovic",
+		"Emira Husovic"
+	],
+	"board-emira-1": [
+		"Советничка за Меѓународни Курикулуми",
+		"Këshilltare për Kurrikulat Ndërkombëtare",
+		"Advisor for International Curricula"
+	],
+	"board-emira-2": [
+		"Јас сум Емира Хусовиќ, Советник за Меѓународни Курикули во Сојузот. До септември 2022 година, студирав во Гимназија \"Кочо Рацин\" во Велес. Минатата година добив стипендија за да студирам две години во еден од Обединетите Светски Колеџи (UWC) во Танзанија. Како воодушевена млада студентка која сака да направи промена во образовниот систем, се приклучив на Сојузот како амбасадор на почетокот на 2020 година. Во 2022 година, бев назначена како Прв потпретседател на Сојузот. Поради моето напуштање на државата, станав Советник за Меѓународни Курикули. Покрај активното учество во Сојузот, учествував и во многу Невладини Организации како Еквалис, Youth Can, Фокус, Хера, Црвен Крст и УНИЦЕФ. Овде во Танзанија, се вклучив во многу комитети во училиштето за одржливост, правата на учениците, родова еднаквост и антирасизам. Активно сум вклучена со Обединетите нации, како и претставувањето на гласот на учениците на UN Pre-COP27 Младинска Конференција на Обединетите Нации.",
+		"Unë jam Emira Husoviq, Këshilltare për Kurrikulat Ndërkombëtare në Union. Deri në shtator 2022 kam studiuar në gjimnazin Koço Racin në Veles. Megjithatë, vitin e kaluar mora një bursë për të studiuar dy vjet në një nga Kolegjet e Bashkuara Botërore (UWC) në Tanzani. Si një studente e re entuziaste me deshire per një ndryshim në sistemin arsimor, unë iu bashkova Unionit si ambasadore në fillim të vitit 2020. Në vitin 2022 u emërova si nënkryetare e parë e Unionit. Megjithatë, për shkak të largimit nga Maqedonia u bëra këshilltare për planprograme ndërkombëtare. Përveçse jam aktive në Union, kam marrë pjesë në shumë OJQ si Ekvalis, Youth Can, Focus, Hera, Kryqi i Kuq dhe UNICEF. Këtu në Tanzani,  jam duke marrë pjesë në shume komitete në shkollë në lidhje me qëndrueshmërinë, të drejtat e studentëve, barazinë gjinore dhe antiracizmin. Unë kam qenë aktivisht e  përfshirë me Kombet e Bashkuara, si dhe kam përfaqësuar zërin e studentëve në Konferencën Rinore të OKB-së Pre-COP27.",
+		"I am Emira Husovikj, the Advisor for International Curricula in the Union. Until September, 2022 I studied in the Gymnasium Koco Racin in Veles. However, last year I got a scholarship to study two years in one of the United World Colleges (UWC) in Tanzania. As an enthusiastic young student who wanted to make a change in the educational system, I joined the Union as an ambassador in the beginning of 2020. In 2022, I was appointed as the First - vice president of the Union. However, due to leaving Macedonia I became an Advisor for International Curricula. Beside being active in the Union, I have taken part in many NGOs like Ekvalis, Youth Can, Focus, Hera, Red Cross and UNICEF. Here in Tanzania, I am taking part in many committees in the school regarding sustainability, students’ rights, gender equality and anti-racism. I have been actively involved with the United Nations, as well as representing the students’ voice at the UN Pre-COP27 Youth Conference."
+	],
+
+	"board-berin-0": [
+		"Берин Мухамед",
+		"Berin Muhamed",
+		"Berin Muhamed"
+	],
+	"board-berin-1": [
+		"Одговорен за Младински Амбасадори",
+		"Shef i Marrëdhënieve me Ambasadorët e Rinj",
+		"Head of Youth Ambassador Relations"
+	],
+	"board-berin-2": [
+		"Јас се викам Берин Мухамед и сум ученик во втора година во гимназијата \"Зеф Луш Марку\". Од почетокот на средното училиште, активно учествувам во проекти и работилници за правата на учениците и здравјето. Иницирав неколку проекти во земјата на темата на менталното здравје и сум многу среќен што имам можност да бидам дел од Сојузот и да го изразам својот глас. Се приклучив на Извршниот одбор во 2023 година и обавувам функцијата на Глава на Односите со Младите Амбасадори. Во следните 2 години, сум подготвен да допринесам за тоа да ги направам гимназиските години успешни, интересни и незаборавни за сите мои колеги.",
+		"Unë quhem Berin Muhamed dhe jam gjimnazist i vitit të dytë në shkollen  Zef Lush Marku. Që nga fillimi i shkollës së mesme kam marrë pjesë  në projekte dhe seminare për të drejtat dhe shëndetin mental  të nxënësve. Kam iniciuar disa projekte në mbarë vendin me temën e shëndetit mendor dhe jam shumë i lumtur që kam mundësinë të jem pjesë e Unionit dhe të bëj zërin tim të dëgjohet. Unë iu bashkova  Bordit Ekzekutiv në vitin 2023 dhe shërbej si Shef i Marrëdhënieve me Ambasadorët Rinorë. Gjate 2 viteve te  ardhshme jam gati të kontribuoj për t'i bërë vitet e gjimnazit sa më të suksesshme, interesante dhe të paharrueshme për të gjithë bashkëmoshatarët e mi.",
+		"My name is Berin Muhamed and I’m a second-year high-school student in Zef Lush Marku. From the beginning of high school, I have actively participated in projects and workshops for students’ rights and health. I’ve initiated a couple of projects around the country on the topic of mental health and I’m so happy to have the chance to be part of the Union and make my voice heard. I joined the Executive Board in 2023 and I serve as the Head of Youth Ambassador Relations. For the next 2 years, I am ready to contribute in making high-school years as successful, interesting and memorable as possible for all my peers."
 	]
 }
